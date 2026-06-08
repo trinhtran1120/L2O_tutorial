@@ -1,0 +1,10 @@
+# Core numerical and ML dependencies for the Python scripts.
+numpy
+jax[cpu]
+optax
+
+# Notebook/tutorial dependencies.
+flax
+cvxpy
+matplotlib
+ipykernel
