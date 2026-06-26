@@ -16,9 +16,9 @@ EM_DIR = SCRIPT_DIR.parent
 DATA_DIR = EM_DIR / "datasets"
 MODEL_DIR = EM_DIR / "model"
 
-TRAIN_DATA_PATH = DATA_DIR / "eco_mpc-rho=1.0-train.npz"
-TEST_DATA_PATH = DATA_DIR / "eco_mpc-rho=1.0-test.npz"
-MODEL_PATH = MODEL_DIR / "neco_mpc-rho=1"
+TRAIN_DATA_PATH = DATA_DIR / "eco_mpc-rho=0.1-train.npz"
+TEST_DATA_PATH = DATA_DIR / "eco_mpc-rho=0.1-test.npz"
+MODEL_PATH = MODEL_DIR / "neco_mpc-rho=0.1"
 
 WIDTHS = [16, 16]
 LEARNING_RATE = 1e-3
