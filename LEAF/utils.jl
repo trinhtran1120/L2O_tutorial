@@ -1,7 +1,7 @@
 include("matrix_tools.jl")
 
 function load_model(fname::String)
-    data   = JSON3.read(fname)
+    data   = JSON3.read(read(fname, String))
     vecf64 = (Vector{Float64} ∘ vec)
     model = (
         U = convert_to_matrix.(data["U"]),

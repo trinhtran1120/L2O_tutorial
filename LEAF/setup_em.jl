@@ -152,7 +152,7 @@ function energy_mag()
     x0    = 0.5
     dim   = 3
     N     = 96
-    rho   = 1 
+    rho   = 1.0 
 
     # Forecast data are sampled at 15-minute intervals.
     path_power_gen_data  = joinpath(@__DIR__, "datasets", "PV_48h_15-min_150kW_San_Diego.csv")
